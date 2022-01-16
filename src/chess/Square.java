@@ -2,10 +2,6 @@ package chess;
 
 import javafx.scene.Node;
 import javafx.scene.image.ImageView;
-// import javafx.scene.input.ClipboardContent;
-// import javafx.scene.input.Dragboard;
-// import javafx.scene.input.MouseEvent;
-// import javafx.scene.input.TransferMode;
 import javafx.scene.layout.StackPane;
 import javafx.scene.shape.Circle;
 
@@ -23,7 +19,6 @@ public class Square {
         stackPane.setPrefSize(GUIBoard.CELL_SIZE, GUIBoard.CELL_SIZE);
         setBackgroundColor(stackPane, file, rank);
         stackPane.setOnMouseClicked(e -> onClick());
-        // stackPane.setOnMouseClicked(e -> onDragStart(e));
     }
 
     private void setBackgroundColor(StackPane stack, int file, int rank) {
@@ -39,7 +34,7 @@ public class Square {
         return (file + rank) % 2 == 0;
     }
 
-    private void onClick() {
+    public void onClick() {
         System.out.println(1);
         if (GUIBoard.getSelectedPiece() != null) {
             resetOldSelectedSquare();
@@ -295,27 +290,5 @@ public class Square {
             p.clearPossibleMoves();
         }
     }
-
-    // private void onDragStart(MouseEvent e) {
-    //     System.out.println(2);
-    //     clearMoveHints();
-    //     if (guiBoard.getBoard().getBoard()[file][rank] == null) {
-    //         return;
-    //     }
-
-    //     // then we are clicking a piece to move it
-    //     Piece piece = guiBoard.getBoard().getBoard()[file][rank];
-    //     if ((piece.getColor() == Color.WHITE && Board.getPly() % 2 == 1) || 
-    //         (piece.getColor() == Color.BLACK && Board.getPly() % 2 == 0)) {
-    //             return; // we are clicking an enemy piece
-    //     }
-    //     ImageView imageView = (ImageView)stackPane.getChildren().get(0);
-    //     Dragboard db = imageView.startDragAndDrop(TransferMode.ANY);
-    //     ClipboardContent content = new ClipboardContent();
-    //     content.putImage(piece.getImage());
-    //     db.setContent(content);
-    //     e.consume();
-
-    // }
 
 }
