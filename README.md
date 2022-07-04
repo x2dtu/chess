@@ -6,11 +6,11 @@ This is a chess game that I made using Java. I love chess and play it often. Eve
 <img src="https://user-images.githubusercontent.com/82241006/177068237-3560b7c4-38ea-40d1-aa02-465c8c15388b.png" alt="PEMDAS" width="500" />
 In this following screenshot, it is black's move and he is trying to advance the pawn on d7. However, that pawn is pinned to the black king by the white bishop and therefore can't move as indicated by the lack of move hints. If the pawn on d7 could move, then this would put the black king in check and thus would not be a legal move.
 <img src="https://user-images.githubusercontent.com/82241006/177068308-61f21455-2b80-497e-9c71-4692bc80a7f4.png" alt="PEMDAS" width="500" />
-White can castle kingside in this position
+White can castle kingside in this position.
 <img src="https://user-images.githubusercontent.com/82241006/177068517-55a4533e-151e-4477-b382-19094e1c7376.png" alt="PEMDAS" width="500" />
 White can no longer castle kingside because of the black bishop on a6.
 <img src="https://user-images.githubusercontent.com/82241006/177068592-18db7083-c4f8-46e4-a39b-611da98c43e1.png" alt="PEMDAS" width="500" />
-A black pawn on b2 is ready to promote to a higher level piece
+A black pawn on b2 is ready to promote to a higher level piece.
 <img src="https://user-images.githubusercontent.com/82241006/177068989-27538473-66f1-470f-bd12-a673e00220aa.png" alt="PEMDAS" width="500" />
 <img src="https://user-images.githubusercontent.com/82241006/177069022-5386c50c-6694-4df9-bde9-cf2fe4b46435.png" alt="PEMDAS" width="500" />
 Now the white king is in check. White has only three valid moves, one is blocking the check with the light-square bishop, another is blocking the check with the dark-square bishop, and the third is moving the king to d2. 
