@@ -4,9 +4,6 @@ This is a chess game that I made using Java. I love chess and play it often. Eve
 ## Screenshots
 <img src="https://user-images.githubusercontent.com/82241006/177068154-80d75e70-f8c7-4cb7-a012-f5f8dcc3a552.png" alt="PEMDAS" width="500" />
 <img src="https://user-images.githubusercontent.com/82241006/177068237-3560b7c4-38ea-40d1-aa02-465c8c15388b.png" alt="PEMDAS" width="500" />
-
-<br>
-<br>
 In this following screenshot, it is black's move and he is trying to advance the pawn on D7. However, that pawn is pinned to the black king by the white bishop and therefore can't move as indicated by the lack of move hints. If the pawn on D7 could move, then this would put the black king in check and thus would not be a legal move.
 <img src="https://user-images.githubusercontent.com/82241006/177068308-61f21455-2b80-497e-9c71-4692bc80a7f4.png" alt="PEMDAS" width="500" />
 White can castle in this position
@@ -19,7 +16,6 @@ A black pawn on B2 is ready to promote to a higher level piece
 Now the white king is in check. White has only three valid moves, one is blocking the check with the light-square bishop, another is blocking the check with the dark-square bishop, and the third is moving the king to D2. 
 <img src="https://user-images.githubusercontent.com/82241006/177069078-21d569f4-4861-47fc-a81c-afa8949a7533.png" alt="PEMDAS" width="500" />
 <img src="https://user-images.githubusercontent.com/82241006/177069407-ae9fa328-8cb6-4dcf-8e92-32a2711a8827.png" alt="PEMDAS" width="500" />
-<img src="https://user-images.githubusercontent.com/82241006/177069407-ae9fa328-8cb6-4dcf-8e92-32a2711a8827.png" alt="PEMDAS" width="500" />
 This project also takes into account draws by 3-fold repetition, by 50-move rule, and by insufficient material as well as stalemates.
 <img src="https://user-images.githubusercontent.com/82241006/177069460-c7424108-28bd-4a87-b397-9a765ce99ce7.png" alt="PEMDAS" width="500" />
 
@@ -29,4 +25,4 @@ This project also takes into account draws by 3-fold repetition, by 50-move rule
 3. To run this program, in the command line at the project directory, run  `java -cp bin chess.Main`. Enjoy!
 
 ## Controls and Features
-
+This game is currently only 2-player, so one person plays white and the other person plays black. In addition to a single player mode against a chess AI, I'm also considering adding a setting to flip the orientation of the black pieces so that on black's turn, the black pieces are at the bottom of the screen instead of always at the top. Use the mouse and left click the pieces to select them and left click the target square to move the piece. I am also planning to add a drag and drop method of moving pieces as well, but at the moment, point and click movement is only supported. 
