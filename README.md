@@ -1,5 +1,5 @@
 # Chess
-This is a chess game that I made using Java. I love chess and play it often. Ever since the pandemic, I chess has held a special place in my heart, so I wanted to make a chess game myself. At the moment, it is 2-player only, but I plan to create a single player mode where you can play against an AI. This chess game follows all the rules of chess including those of checks, castling, en passant, draws, and pins. Please email me at 3069391@gmail.com or comment on this project page should you have any questions about the game, suggestions for further improvement, or have found any bugs.
+This is a chess game that I made using Java. I love playing and watching chess and ever since the pandemic, chess has held a special place in my heart. So, I wanted to make a chess game myself. At the moment, it is 2-player only, but I plan to create a single player mode where you can play against an AI. This chess game follows all the rules of chess including those of checks, castling, en passant, draws, and pins. Please email me at 3069391@gmail.com or comment on this project page should you have any questions about the game, suggestions for further improvement, or have found any bugs.
 
 ## Screenshots
 <img src="https://user-images.githubusercontent.com/82241006/177068154-80d75e70-f8c7-4cb7-a012-f5f8dcc3a552.png" alt="PEMDAS" width="500" />
